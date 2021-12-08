@@ -1,0 +1,84 @@
+ /*base CSS*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+/* Header Area Start
+  =========================*/
+.header_area {
+  background: #efefef none repeat scroll 0 0;
+  padding: 4% 0;
+}
+.heading-content {
+  padding: 5% 3% 4%;
+  text-align: left;
+}
+.header_area img {
+  margin: auto;
+  padding-left: 5%;
+}
+.heading-content p {
+  padding: 1% 0;
+}
+a.download {
+  background: #D32F2F none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  margin: 1% 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a.download:focus {
+    outline: none;
+}
+a.download:hover {
+    background:#ff0000;
+}
+ /* Content Area Start
+  =========================*/
+  .content_area {
+    padding: 3% 0;
+  }
+  .content-left {
+  padding: 1%;
+}
+.content-left h2 {
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+.content_area ul {
+  margin: 0;
+  padding: 0 0 0 5%;
+}
+ .content_area ul li {
+    list-style: outside none;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.content_area ul li::before {
+  content: "\f069";
+  font: 18px fontawesome;
+  margin: 0 5px 0 -27px;
+  padding-right: 5px;
+}
+ /* Footer Area Start
+  =========================*/
+.footer_area {
+  background: #283739 none repeat scroll 0 0;
+  color: #fff;
+  padding: 2% 0;
+}
+footer {
+  padding: 1%;
+}
+.footer_area i {
+    margin-left: 5px;
+}
+.footer_area a {
+    color:#fff;
+}
+.footer_area a:focus, .footer_area a:hover {
+    outline: none;
+}
